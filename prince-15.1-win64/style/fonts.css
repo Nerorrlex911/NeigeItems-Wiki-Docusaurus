@@ -1,0 +1,153 @@
+/*
+    Prince - Fonts stylesheet
+    https://www.princexml.com
+*/
+
+/* standard "serif" font family */
+
+@font-face {
+    font-family: "Prince Fallback"; /* fallback font */
+    src: url("../fonts/prince-fallback.ttf")
+}
+
+@font-face {
+    font-family: serif; /* Emoji */
+    src: prince-lookup("JoyPixels"), prince-lookup("Noto Color Emoji")
+}
+
+@font-face {
+    font-family: serif; /* last resort font */
+    src: prince-lookup("Arial Unicode MS")
+}
+
+@font-face {
+    font-family: serif; /* Thai */
+    src: prince-lookup("Angsana New")
+}
+
+@font-face {
+    font-family: serif; /* Malayalam */
+    src: prince-lookup("Kartika")
+}
+
+@font-face {
+    font-family: serif; /* Kannada */
+    src: prince-lookup("Tunga")
+}
+
+@font-face {
+    font-family: serif; /* Telugu */
+    src: prince-lookup("Gautami")
+}
+
+@font-face {
+    font-family: serif; /* Tamil */
+    src: prince-lookup("Latha")
+}
+
+@font-face {
+    font-family: serif; /* Gujarati */
+    src: prince-lookup("Shruti")
+}
+
+@font-face {
+    font-family: serif; /* Gurmukhi */
+    src: prince-lookup("Raavi")
+}
+
+@font-face {
+    font-family: serif; /* Bengali */
+    src: prince-lookup("Vrinda")
+}
+
+@font-face {
+    font-family: serif; /* Devanagari / Hindi */
+    src: prince-lookup("Mangal")
+}
+
+@font-face {
+    font-family: serif; /* Korean, fallback */
+    src: prince-lookup("Batang"), prince-lookup("Malgun Gothic")
+}
+
+@font-face {
+    font-family: serif; /* Japanese, fallback */
+    src: prince-lookup("MS Mincho"), prince-lookup("Yu Gothic")
+}
+
+@font-face {
+    font-family: serif; /* Chinese */
+    src: prince-lookup("MingLiU"), prince-lookup("Microsoft YaHei"), prince-lookup("SimSun")
+}
+
+@font-face {
+    font-family: serif; /* Chinese, traditional */
+    prince-font-lang: zh-Hant zh-HK zh-TW;
+    src: prince-lookup("Microsoft JhengHei")
+}
+
+@font-face {
+    font-family: serif; /* Korean */
+    prince-font-lang: ko ko-KR;
+    src: prince-lookup("Batang"), prince-lookup("Malgun Gothic")
+}
+
+@font-face {
+    font-family: serif; /* Japanese */
+    prince-font-lang: ja ja-JP;
+    src: prince-lookup("MS Mincho"), prince-lookup("Yu Gothic")
+}
+
+@font-face {
+    font-family: serif; /* Symbols */
+    src: prince-lookup("Segoe UI Symbol")
+}
+
+@font-face {
+    font-family: serif; /* Symbols */
+    src: prince-lookup("Symbol")
+}
+
+@font-face {
+    font-family: serif; /* Latin / Greek / Cyrillic */
+    src: prince-lookup("Times New Roman")
+}
+
+/* standard "sans-serif" font family */
+
+@font-face {
+    font-family: sans-serif; /* Korean */
+    src: prince-lookup("Dotum")
+}
+
+@font-face {
+    font-family: sans-serif; /* Japanese */
+    src: prince-lookup("MS Gothic")
+}
+
+@font-face {
+    font-family: sans-serif; /* Latin / Greek / Cyrillic */
+    src: prince-lookup("Arial")
+}
+
+/* standard "monospace" font family */
+
+@font-face {
+    font-family: monospace;
+    src: prince-lookup("Courier New")
+}
+
+/* standard "cursive" font family */
+
+@font-face {
+    font-family: cursive;
+    src: prince-lookup("Comic Sans MS")
+}
+
+/* standard "fantasy" font family */
+
+@font-face {
+    font-family: fantasy;
+    src: prince-lookup("Comic Sans MS")
+}
+
